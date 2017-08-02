@@ -1,0 +1,43 @@
+#include<bits/stdc++.h>
+using namespace std;
+int getceilindex(vector<int>& vec,int l,int r,int key){
+    int m;
+    while(r-l>1){
+        m=l+(r-l)/2;
+        if(vec[m]>=key){
+            r=m;
+        }
+        else
+            l=m;
+    }
+    return r;
+}
+int lis(vector<int>& v){
+    if(v.size()==0)
+        return 0;
+    vector<int> tail(v.size(),0);
+    int length=1;
+    tail[0]=v[0];
+    for(int i=1;i<v.size();i++){
+        if(v[i]<tail[0]){
+            tail[0]=v[i];
+        }
+        else if(v[i]>tail[length-1])
+            tail[length++]=v[i];
+        else
+            tail[getceilindex(tail,-1,length-1,v[i])]=v[i];
+    }
+    return length;
+}
+int main(){
+    int n;
+    cin>>n;
+    vector<int> vec;
+    int p;
+    for(int i=0;i<n;i++){
+        cin>>p;
+        vec.push_back(p);
+    }
+    cout<<lis(vec)<<endl;
+    return 0;
+}
