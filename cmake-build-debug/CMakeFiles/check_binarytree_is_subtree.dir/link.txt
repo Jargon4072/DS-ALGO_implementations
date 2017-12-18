@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/check_binarytree_is_subtree.dir/trees/check_binarytree_is_subtree.cpp.o  -o check_binarytree_is_subtree 

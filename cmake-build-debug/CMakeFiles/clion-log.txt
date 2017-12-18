@@ -1,0 +1,4 @@
+/home/krishna_warrior/Music/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/krishna_warrior/codes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/krishna_warrior/codes/cmake-build-debug
