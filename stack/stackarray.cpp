@@ -60,5 +60,5 @@ int main(){
   if(s.isempty()){
     cout<<"empty Stack!"<<endl;
   }
-  cout<<s.pop()<<" popped from Stack."<<endl;
+  cout<<s.pop()<<"popped from Stack."<<endl;
 }

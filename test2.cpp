@@ -1,57 +1,48 @@
+//
+// Created by krishna_warrior on 2/12/17.
+//
 #include<bits/stdc++.h>
-
 using namespace std;
-struct treenode{
-    char data;
-    treenode* left;
-    treenode* right;
+struct node{
+    int data;
+    node* left;
+    node* right;
 };
-treenode* newnode(char value){
-    treenode* new_node=new treenode;
-    new_node->data=value;
+node* newnode(int data){
+    node* new_node=new node;
+    new_node->data=data;
     new_node->left=NULL;
     new_node->right=NULL;
     return new_node;
 }
-
-int main(){
-    /*string in,pre;
-    getline(cin,in);
-    getline(cin,pre);
-    treenode* root;
-    cout<<"in: "<<in<<endl<<"pre: "<<pre<<endl;
-    int i=0;
-    root=newnode(pre[i]);
-    int pos=in.find(pre[i]);
-    string lstrin=in.substr(0,pos);
-    string rstrin=in.substr(pos+1);
-    string lpre=pre.substr(1,lstrin.length());
-    string rpre=pre.substr(lstrin.length()+1);
-    cout<<"lstr: "<<lstrin<<endl<<"rstr: "<<rstrin<<endl;
-    cout<<"lpre: "<<lpre<<endl<<"rpre: "<<rpre<<endl;
-    cout<<"root->data: "<<root->data<<endl;
-    */
-    string str;
-    getline(cin,str);
-    string str1;
-    int p=0;
-    cout<<str<<endl;
-    /*for(int i=0;i<str.length();i++){
-        if(str[i]==' '){
-            cout<<"str1: "<<str1<<endl;
-            vec.push_back(str1);
-            p++;
-            str1="";
-        }
-        else{
-            str1+=str[i];
-        }
-    }*/
-    istringstream iss(str);
-    vector<string> vec{istream_iterator<string>{iss}, istream_iterator<string>{}};
-    cout<<" words are: "<<endl;
-    for(int i=0;i<vec.size();i++){
-        cout<<vec[i]<<endl;
+void leveloreder(node* root){
+    node* temp=new node;
+    temp=NULL;
+    queue<node* > q;
+    if(root==NULL){
+        return;
     }
+    q.push(root);
+    while(!q.empty()){
+        temp=q.front();
+        q.pop();
+        cout<<temp->data;
+        if(temp->left){
+            q.push(temp->left);
+        }
+        if(temp->right) {
+            q.push(temp->right);
+        }
+    }
+}
+int main(){
+    node* root=new node;
+    root=NULL;
+    root=newnode(1);
+    root->left=newnode(2);
+    root->right=newnode(3);
+    root->left->left=newnode(4);
+    root->left->right=newnode(5);
+    leveloreder(root);
     return 0;
 }

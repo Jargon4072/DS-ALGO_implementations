@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void max_diff(int arr[],int n){
-    
+
 }
 
 int main(){
