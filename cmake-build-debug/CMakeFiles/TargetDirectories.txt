@@ -1,6 +1,0 @@
-/home/krishna_warrior/codes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/krishna_warrior/codes/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/krishna_warrior/codes/cmake-build-debug/CMakeFiles/check_binarytree_is_subtree.dir
-/home/krishna_warrior/codes/cmake-build-debug/CMakeFiles/test_spoj.dir
-/home/krishna_warrior/codes/cmake-build-debug/CMakeFiles/test1.dir
-/home/krishna_warrior/codes/cmake-build-debug/CMakeFiles/code.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/boundary_tree_traversal.dir/trees/boundary_tree_traversal.cpp.o  -o boundary_tree_traversal 
