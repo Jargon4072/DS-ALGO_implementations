@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     queue<int> q;
     int n;
-    int k,rmn=0;
+
     string str;
     getline(cin,str);
     istringstream ss{regex_replace(str,regex{R"(\{|\}|,)"}, " ")};
