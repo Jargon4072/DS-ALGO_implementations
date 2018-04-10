@@ -22,7 +22,6 @@ void LRUCache::refer(int x){
   }
     else
       dq.erase(ma[x]);
-
     dq.push_front(x);
     ma[x]=dq.begin();
 }
@@ -42,6 +41,5 @@ int main(){
   ca.refer(4);
   ca.refer(5);
   ca.display();
-
   return 0;
 }

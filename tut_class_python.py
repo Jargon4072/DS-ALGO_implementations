@@ -1,7 +1,6 @@
 import os
 import sys
 
-
 class Animal:
     __name = None
     __height = 0
@@ -44,8 +43,6 @@ class Animal:
 
     def toString(self):
         print("{} is {}cm tall and {}kg and says {}".format(self.__name, self.__height,  self.__weight, self.__sound))
-
-
 '''
 class Dog(Animal):
     __owner = ""
@@ -65,9 +62,7 @@ class Dog(Animal):
 
     def toString(self):
         print("{} is {}cm tall and {}kg and says {} and owner is {}".format(self.get_name(),self.get_height(),self.get_weight(),self.get_sound(),self.get_owner()))
-
 '''
-
 '''spot = Dog("Rocky",110,40,"Ruff","Chandan")
 #spot.toString()'''
 
