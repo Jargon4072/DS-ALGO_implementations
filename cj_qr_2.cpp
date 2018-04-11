@@ -80,6 +80,6 @@ int main(){
     for(ll i=0;i<n;i++){
       cin>>arr[i];
     }
-                               // TODO: complete this 
+                               // TODO: complete this after q1.
   }
 }
