@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
-#define MAX 1000000            //NOTE: not a efficient func.
+#define MAX 1000000            //NOTE: not a efficient func. try to look closer into behaviour of sort.
 /*void swap(ll *xp, ll *yp)
 {
     ll temp = *xp;
