@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
-#define MAX 1000000
-void swap(ll *xp, ll *yp)
+#define MAX 1000000            //NOTE: not a efficient func.
+/*void swap(ll *xp, ll *yp)
 {
     ll temp = *xp;
     *xp = *yp;
@@ -68,4 +68,18 @@ int main(){
     }
   }
   return 0;
+}*/
+int main(){
+  ll t;
+  cin>>t;
+  ll z=t;
+  while(t--){
+    ll n;
+    cin>>n;
+    ll arr[MAX];
+    for(ll i=0;i<n;i++){
+      cin>>arr[i];
+    }
+                               // TODO: complete this code.
+  }
 }
