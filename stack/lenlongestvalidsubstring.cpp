@@ -8,9 +8,9 @@
 //program to find longest valid substring of ().
 #include<bits/stdc++.h>
 using namespace std;
-/*int lenlongvalsubstr(string s){      //this function is working for exp of type (((())) but not of type ()((())) ...i will check later
-  stack<char> st;                     //TODO: check this function for expression like ()(())))).
-  int l=s.length();
+/*int lenlongvalsubstr(string s){    //this function is working for exp of type (((())) but not of type ()((())).will check later.
+  stack<char> st;              */  //TODO: check this function for expression like ()(()))))
+  /*int l=s.length();
   string str;
   st.push('N');
   for(int i=0;i<l;i++){      //push given string in stack st in reverse order.
