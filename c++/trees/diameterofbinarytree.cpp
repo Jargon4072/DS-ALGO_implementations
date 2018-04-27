@@ -32,7 +32,7 @@ int diameter(treenode* root){     //basic func. O(2^n).
 }*/
 int diameter(treenode* root,int *height){    //optimized fun, O(n).
     if(root==NULL){
-        *height=0;                      //TODO: try to implement it without pointer
+        *height=0;                      //TODO: try to implement it without pointer https://github.com/Jargon4072/DS-ALGO_implementations/issues/12 id:11
         return 0;                               //i.e. with int height insted of int* height
     }
     int lh=0,rh=0;

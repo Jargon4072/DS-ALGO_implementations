@@ -20,7 +20,7 @@ treenode* newnode(int value){
     new_node->right=NULL;
     return new_node;
 }
-void nonrecursiveinorder(treenode* root){    //TODO: implement it wihtout stack.
+void nonrecursiveinorder(treenode* root){    //TODO: implement it wihtout stack. https://github.com/Jargon4072/DS-ALGO_implementations/issues/3 id:2
     stack<treenode* > st;
     treenode* temp=new treenode;
     temp=root;

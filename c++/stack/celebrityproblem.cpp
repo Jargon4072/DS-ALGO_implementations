@@ -42,7 +42,7 @@ int celebrity(int n){
   }
   return c;
 }
-int main(){            //TODO:create a blogpost for this.
+int main(){            //TODO: create a blogpost for this. https://github.com/Jargon4072/DS-ALGO_implementations/issues/2 id:1
   int n=4;
   int id=celebrity(n);
   if(id==-1){
