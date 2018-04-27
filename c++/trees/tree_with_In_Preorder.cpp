@@ -19,7 +19,7 @@ int search(char arr[], int strt, int end, char value){
         return i;
     }
 }
-treenode* buildTree(char in[], char pre[], int inStrt, int inEnd){    //TODO: implement it again.aldo do for in & post
+treenode* buildTree(char in[], char pre[], int inStrt, int inEnd){    //TODO: implement it again.aldo do for in & post https://github.com/Jargon4072/DS-ALGO_implementations/issues/10 id:9
   static int preIndex = 0;
 
   if(inStrt > inEnd)

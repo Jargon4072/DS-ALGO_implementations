@@ -26,7 +26,7 @@ treenode* insert(treenode* root,int value){
     }
     return root;
 }
-int kthsmallestelementmorris(treenode* root, int value){ //TODO:implement it  again after implementing inorder traversal without recursion or stack;
+int kthsmallestelementmorris(treenode* root, int value){ //TODO: implement it again after implementing inorder traversal without recursion or stack; https://github.com/Jargon4072/DS-ALGO_implementations/issues/1 id:0
     int count=0;
     int ksmall=INT_MIN;
     treenode* curr=root;

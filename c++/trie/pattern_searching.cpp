@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define max_char 256
-class suffixtrienode{        //TODO: implement it again.also imp. it without classes(i.e. function call);
+class suffixtrienode{        //TODO: implement it again.also imp. it without classes(i.e. function call); https://github.com/Jargon4072/DS-ALGO_implementations/issues/16 id:15
 private:
     suffixtrienode* children[max_char];
     list<int> *indexes;

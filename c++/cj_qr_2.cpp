@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
-#define MAX 1000000            //NOTE: not a efficient func. try to look closer into behaviour of sort.
+#define MAX 1000000            //NOTE: not a efficient func. try to look closer into behaviour of sort. https://github.com/Jargon4072/DS-ALGO_implementations/issues/5 id:4
 /*void swap(ll *xp, ll *yp)
 {
     ll temp = *xp;
@@ -80,6 +80,6 @@ int main(){
     for(ll i=0;i<n;i++){
       cin>>arr[i];
     }
-                               // TODO: complete this after q1.
+                               // TODO: complete this after q1. https://github.com/Jargon4072/DS-ALGO_implementations/issues/8 id:7
   }
 }

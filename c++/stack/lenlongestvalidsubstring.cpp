@@ -9,7 +9,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 /*int lenlongvalsubstr(string s){    //this function is working for exp of type (((())) but not of type ()((())).will check later.
-  stack<char> st;              */  //TODO: check this function for expression like ()(()))))
+  stack<char> st;              */  //TODO: check this function for expression like ()(())))) https://github.com/Jargon4072/DS-ALGO_implementations/issues/6 id:5
   /*int l=s.length();
   string str;
   st.push('N');

@@ -9,7 +9,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define CHAR_TO_INDEX(c) ((int)c - (int)'a')
-struct trienode{          //TODO:impelement it with extra node prevnode pointing to the TrieNode which corresponds
+struct trienode{          //TODO: impelement it with extra node prevnode pointing to the TrieNode which corresponds https://github.com/Jargon4072/DS-ALGO_implementations/issues/4 id:3
     bool isleaf;                 //to the last entered character by the user
     trienode* children[50];
     list<string> word;

@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define CHAR_TO_INDEX(c) ((int)c - (int)'a')
-            //TODO:implement it again.
+            //TODO: implement it again. https://github.com/Jargon4072/DS-ALGO_implementations/issues/13 id:12
 struct trienode{
     trienode *children[26];
     bool isleaf;

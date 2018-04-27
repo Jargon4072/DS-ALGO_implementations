@@ -17,7 +17,8 @@
       "XXX",
       "IDEA",
       "NOTE",
-      "REVIEW"
+      "REVIEW",
+      "MARK"
     ]
   },
   "lists": [
@@ -37,5 +38,10 @@
     "pedantic": false,
     "smartLists": true,
     "langPrefix": "language-"
+  },
+  "sync": {
+    "id": "5ae33f2bae67f157837bd874",
+    "name": "Jargon4072/DS-ALGO_implementations",
+    "useImdoneioForPriority": true
   }
 }

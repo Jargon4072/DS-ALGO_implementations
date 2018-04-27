@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void stockspan(string str){     //TODO: analyze it and implement it again differently.
+void stockspan(string str){     //TODO: analyze it and implement it again differently. https://github.com/Jargon4072/DS-ALGO_implementations/issues/9 id:8
   stack<int> st;
   st.push(0);
   istringstream stream(str);
