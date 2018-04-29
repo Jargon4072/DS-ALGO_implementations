@@ -6,7 +6,7 @@ int main(){
     char str[1000005];
     //getline(cin,str);
     scanf("%s",str);
-    long long start=0,n=strlen(str),end=n-1;
+    long long start=0,n=strlen(str),end=n-1;   
     for(long long i=0;i<n;i++){
         if(str[i]=='l'){
             arr[end--]=i+1;
