@@ -18,7 +18,8 @@
       "IDEA",
       "NOTE",
       "REVIEW",
-      "MARK"
+      "MARK",
+      "QUESTIONS"
     ]
   },
   "lists": [
@@ -28,6 +29,10 @@
     },
     {
       "name": "NOTE",
+      "hidden": false
+    },
+    {
+      "name": "QUESTIONS",
       "hidden": false
     }
   ],
